@@ -239,6 +239,9 @@
   .topbar {
     @apply sticky top-0 z-50 md:hidden bg-dark-2 w-full;
   }
+  .positioned-text {
+    @apply text-4xl font-extrabold text-white p-4 rounded-md shadow-md bg-gradient-to-r from-indigo-500 to-pink-500;
+  }
 
   /* User card */
   .user-card {
